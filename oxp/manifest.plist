@@ -1,0 +1,11 @@
+{
+	"identifier" = "oolite.oxp.cim.systemfeatures.rings";
+	"required_oolite_version" = "1.79";
+	"title" = "System Features: Rings";
+	"version" = "1.2";
+	"category" = "Ambience";
+	"description" = "Adds ring systems to occasional planets. Requires a shader-capable graphics card to view.";
+	"author" = "cim";
+	"information_url" = "http://wiki.alioth.net/index.php/System_Features_Rings";
+	"license" = "CC-BY-SA 3.0";
+}

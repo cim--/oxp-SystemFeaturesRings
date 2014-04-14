@@ -1,0 +1,38 @@
+{
+		"systemfeatures-rings" = {
+		    "model" = "systemfeatures_rings.dat";
+				"materials" = {
+						"systemfeatures-rings.png" = {
+								"textures" = ( 
+										{ 
+												name = "systemfeatures-ringsZU.png"; 
+												anisotropy = 1.0;
+										} 
+								);
+								"vertex_shader" = "systemfeatures-rings.vertex";
+								"fragment_shader" = "systemfeatures-rings.fragment";
+								"uniforms" = {
+										"uDiffuseMap" = {
+												"type" = "texture";
+												"value" = 0;
+										};
+										"uVec1" = "shaderVector1";
+										"uVec2" = "shaderVector2";
+										"uCentre" = "position";
+										"uFloat1" = "shaderFloat1";
+										"uFloat2" = "shaderFloat2";
+										"uOrient" = {
+												"type" = "binding";
+												"binding" = "orientation";
+												"asMatrix" = 0;
+										};
+										"uDist" = "cameraRelativePosition";
+										"uVecUp" = "upVector";
+										"uVecRight" = "rightVector";
+								};
+						};
+				};
+				"script" = "systemfeatures-ring.js";
+		};
+
+}
