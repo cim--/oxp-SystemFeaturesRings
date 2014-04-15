@@ -7,7 +7,7 @@ this.systemWillPopulate = function() {
 				return;
 		}
 		if (system.info.radius < 6850) {
-//				return;
+				return;
 		}
 	system.setPopulator("system-features-rings",
 						{
